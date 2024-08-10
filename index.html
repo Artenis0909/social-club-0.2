@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Club Network</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 60px; /* Espaço para a barra de navegação */
+        }
+
+        /* Estilo para a barra de navegação */
+        .navbar {
+            width: 100%;
+            background-color: #000;
+            overflow: hidden;
+            border-bottom: 2px solid #d32f2f; /* Linha vermelha abaixo da barra */
+            position: fixed; /* Fixa a barra de navegação no topo */
+            top: 0;
+            left: 0;
+            z-index: 1000; /* Garante que a barra fique acima de outros elementos */
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #ffffff; /* Cor branca para as fontes */
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Coloca "Minha Conta" do lado direito */
+        .navbar a.account {
+            float: right;
+        }
+
+        .navbar a:hover {
+            background-color: #333;
+            color: #ffffff;
+        }
+
+        /* Estilo para o logo do Social Club */
+        .logo {
+            font-family: Arial, sans-serif;
+            font-size: 36px;
+            color: #d32f2f;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* Estilo para o texto de boas-vindas */
+        .welcome-text {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #2a2a2a;
+            border-radius: 8px;
+        }
+
+        .welcome-text h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .welcome-text p {
+            font-size: 18px;
+        }
+
+        /* Estilo para o texto sem sentido */
+        .nonsense-text {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #333;
+            border-radius: 8px;
+            font-size: 16px;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        /* Estilo para o rodapé */
+        .footer {
+            width: 100%;
+            background-color: #000;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .footer p {
+            margin: 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de navegação -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="jogos.html">Jogos</a>
+        <a href="chats.html">Chats</a>
+        <a href="novidades.html">Novidades</a>
+        <a href="minha_conta.html" class="account">Minha Conta</a> <!-- "Minha Conta" à direita -->
+    </div>
+
+    <!-- Logo do Social Club -->
+    <div class="logo">
+        Social Club Network
+    </div>
+
+    <!-- Texto de boas-vindas -->
+    <div class="welcome-text">
+        <h1>Bem-vindo ao Social Club Network!</h1>
+        <p>Aqui você pode compartilhar suas conquistas, entrar em chats com amigos, participar de jogos emocionantes, 
+        personalizar sua conta e ficar por dentro das últimas novidades do mundo dos games.</p>
+    </div>
+
+    <!-- Texto sem sentido -->
+    <div class="nonsense-text">
+        Kkkkkk... O gato azul comeu pão na lua enquanto dançava com unicórnios em um campo de marshmallows.
+    </div>
+
+       <!-- Rodapé -->
+    <div class="footer">
+        <a href="minha_conta.html">Login</a>
+        <a href="minha_conta.html">Contato</a>
+        <a href="minha_conta.html">Sobre</a>
+        <a href="minha_conta.html">Suporte</a>
+        <p>© 2024 Social Club Network. Todos os direitos reservados.</p>
+    </div>
+
+</body>
+</html>
